@@ -20,18 +20,18 @@ const Contact = () => {
           >
             <div className="contact-content">
               <div className="row">
-                <div className="col-sm-6 col-xs-12 justify-content-center">
+                <div className="col-md-6 col-xs-12 justify-content-center">
                   <div className="d-flex single-contact">
                     <MdLocationOn className="icon" />
                     <p>New Delhi, Delhi</p>
                   </div>
                 </div>
 
-                <div className="col-sm-6 col-xs-12 justify-content-center">
+                <div className="col-md-6 col-xs-12 justify-content-center">
                   <div className="d-flex single-contact">
                     <MdLocalPhone className="icon" />
                     <p>
-                      <a href="#">+91 8130128030</a>
+                      <a href="tel:+91-8130128030">+91-8130128030</a>
                     </p>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                 {/*  */}
               </div>
               <div className="row">
-                <div className="col-sm-6 col-xs-12">
+                <div className="col-md-12 col-xs-12">
                   <div className="d-flex align-items-center single-contact">
                     <MdEmail className="icon" />
                     <div>

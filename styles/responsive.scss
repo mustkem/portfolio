@@ -67,9 +67,6 @@
       width: 75%;
     }
   }
-  // #mobile-menu {
-  //   display: none;
-  // }
   .slicknav_menu {
     display: block;
   }
@@ -101,7 +98,7 @@
     position: fixed;
     margin: 12px;
     z-index: 1;
-    svg{
+    svg {
       padding: 5px;
       background-color: white;
       border-radius: 4px;
@@ -121,8 +118,6 @@
       left: 0;
     }
 
-  
-
     .navbar-content {
       height: 100%;
       ul.navbar-nav {
@@ -135,9 +130,8 @@
         }
         li {
           width: 100%;
-          &.active{
-          border-bottom: 1px solid white;
-
+          &.active {
+            border-bottom: 1px solid white;
           }
           a {
             color: white;
@@ -156,7 +150,23 @@
     right: 0;
     bottom: 0;
   }
+
+  .close-sidebar {
+    padding: 20px 45px;
+    display: block;
+    color: black;
+    background-color: white;
+  }
+  #hero-area {
+    .contents {
+      .head-title {
+        font-size: 40px;
+      }
+    }
+  }
 }
+
+// 991 ends
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -187,6 +197,9 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+  .more-link {
+    text-align: center;
+  }
   .section-title {
     font-size: 22px;
     margin-bottom: 30px;
@@ -200,16 +213,19 @@
     }
   }
   #hero-area {
+    h1 {
+      font-size: 40px;
+    }
     .contents {
       padding: 100px 0px 60px 0px;
       .head-title {
-        font-size: 22px;
+        font-size: 35px;
       }
       h5 {
         font-size: 32px;
       }
       p {
-        font-size: 20px;
+        font-size: 23px;
       }
     }
   }
@@ -227,13 +243,19 @@
       }
     }
   }
-  .contact-form-area {
-    padding: 40px 0px;
-  }
   .footer-right-area {
     margin-top: 20px;
   }
-}
-
-@media screen and (max-width: 768px) {
+  .contact-form-area {
+    padding: 40px 0px;
+    svg {
+      display: none;
+    }
+    .single-contact {
+      justify-content: center;
+      p {
+        text-align: center;
+      }
+    }
+  }
 }

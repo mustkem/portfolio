@@ -14,7 +14,7 @@ const Resume = () => {
     <div ref={sectionRef} id="resume" className="section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-6">
+          <div className="col-lg-6 col-md-6 col-xs-12">
             <div
               className="education"
               data-aos-delay="200"
@@ -58,7 +58,7 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6">
+          <div className="col-lg-6 col-md-6  col-xs-12">
             <div
               className="experience"
               data-aos-delay="400"
@@ -125,7 +125,7 @@ const Resume = () => {
                   </div>
                 </li>
               </ul>
-              and more ...
+              <p className="more-link">and more ...</p>
             </div>
           </div>
         </div>

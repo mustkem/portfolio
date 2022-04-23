@@ -38,6 +38,9 @@ const Header = () => {
             className={`navbar-collapse menuNav ${navbarOpen ? "active" : ""}`}
           >
             <div className="navbar-content">
+              <div onClick={handleToggle} className="close-sidebar">
+                Close
+              </div>
               <ul className="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
                 <li data-ref="hero-area" className="nav-item active">
                   <a

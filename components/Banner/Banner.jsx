@@ -15,22 +15,14 @@ const Banner = () => {
         <div className="row">
           <div className="col-md-12 col-sm-12 text-center">
             <div className="contents">
-              <h5
-                className="script-font"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="200"
-              >
-                Hi This is
-              </h5>
-              <h2
+              <h1
                 className="head-title"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="400"
               >
                 Mustkeem K
-              </h2>
+              </h1>
               <p
                 className="script-font"
                 data-aos-duration="1000"
@@ -40,7 +32,7 @@ const Banner = () => {
                 Front-end Developer & Mentor
               </p>
               <img
-                className="script-font"
+                className="script-font profile-avatar"
                 data-aos-duration="1000"
                 data-aos="fade-up"
                 data-aos-delay="600"

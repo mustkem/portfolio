@@ -20,7 +20,7 @@ const Counter = () => {
       <div className="container">
         <div className="row">
           {/* Counter Item */}
-          <div className="col-md-4 col-sm-6 work-counter-widget text-center">
+          <div className="col-md-4 col-xs-12 work-counter-widget text-center">
             <div
               className="counter"
               data-aos="fade-down"
@@ -35,7 +35,7 @@ const Counter = () => {
             </div>
           </div>
           {/* Counter Item */}
-          <div className="col-md-4 col-sm-6 work-counter-widget text-center">
+          <div className="col-md-4 col-xs-12 work-counter-widget text-center">
             <div
               className="counter"
               data-aos="fade-down"
@@ -50,7 +50,7 @@ const Counter = () => {
             </div>
           </div>
           {/* Counter Item */}
-          <div className="col-md-4 col-sm-6 work-counter-widget text-center">
+          <div className="col-md-4 col-xs-12 work-counter-widget text-center">
             <div
               className="counter"
               data-aos="fade-down"

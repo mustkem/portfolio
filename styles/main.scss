@@ -30,9 +30,6 @@ h4 {
 }
 
 a {
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
@@ -124,9 +121,6 @@ ol {
   cursor: pointer;
   font-weight: 400;
   color: #fff;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
   &:focus,
@@ -142,13 +136,6 @@ ol {
   background-color: #8062f7;
   position: relative;
   z-index: 1;
-  // &:hover {
-  //   color: white;
-  //   box-shadow: 0px 0px 0px 1px white;
-  //   transition: .3s;
-
-  // }
-
   &:after {
     background: #fff;
     content: "";
@@ -223,10 +210,6 @@ button:focus {
       align-items: center;
       justify-content: center;
       transition: all 0.3s ease-in-out 0s;
-      -moz-transition: all 0.3s ease-in-out 0s;
-      -webkit-transition: all 0.3s ease-in-out 0s;
-      -o-transition: all 0.3s ease-in-out 0s;
-
       &:hover {
         color: #fff;
       }
@@ -276,9 +259,6 @@ button:focus {
     border-radius: 2px;
     text-align: center;
     transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   }
 
@@ -551,15 +531,11 @@ button:focus {
       line-height: 40px;
       cursor: pointer;
       background: transparent;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       i {
         font-size: 20px;
         color: #8062f7;
         vertical-align: middle;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
 
         &:hover {
@@ -641,11 +617,6 @@ button:focus {
       position: relative;
       outline: 0;
       transition: all 0.3s ease-in-out;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-
       &:first-child {
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
@@ -738,10 +709,11 @@ button:focus {
     }
 
     .head-title {
-      font-size: 80px;
+      font-size: 60px;
       letter-spacing: 10px;
       font-weight: 700;
       color: rgba(10, 10, 10, 0.9);
+      margin-bottom: 25px;
     }
 
     p {
@@ -773,6 +745,9 @@ button:focus {
 
   .avatar {
     padding: 50px;
+  }
+  .profile-avatar{
+    margin: 25px 0;
   }
 }
 
@@ -830,7 +805,6 @@ button:focus {
   top: 0;
   background: rgba(0, 180, 217, 0.6);
   opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   opacity: 0;
 
@@ -849,8 +823,6 @@ button:focus {
       cursor: pointer;
       text-align: center;
       font-size: 20px;
-      -webkit-transition: all 0.5s ease-in-out;
-      -moz-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
       background: #fff;
       border-radius: 4px;
@@ -910,10 +882,6 @@ a:not([href]):not([tabindex]):hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-
   .icon {
     svg {
       font-size: 42px;
@@ -947,8 +915,6 @@ a:not([href]):not([tabindex]):hover {
   margin-bottom: 20px;
   font-size: 20px;
   border-radius: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
   padding: 8px 10px;
   border: 1px solid #e1e1e1;
@@ -1024,8 +990,6 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
   background-color: #fff;
   height: 370px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
   z-index: 101;
   width: 100%;
@@ -1105,6 +1069,10 @@ a:not([href]):not([tabindex]):hover {
       }
     }
   }
+}
+
+.close-sidebar{
+  display: none;
 }
 
 /* animation aos */
