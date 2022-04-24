@@ -531,13 +531,10 @@ button:focus {
       line-height: 40px;
       cursor: pointer;
       background: transparent;
-      transition: all 0.3s ease-in-out;
       i {
         font-size: 20px;
         color: #8062f7;
         vertical-align: middle;
-        transition: all 0.3s ease-in-out;
-
         &:hover {
           color: #21cff3;
         }
