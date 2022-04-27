@@ -4,16 +4,20 @@ import { AiOutlineMenu } from "react-icons/ai";
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const handleToggle = (e) => {
-    setNavbarOpen((prev) => {
-      if (typeof window != "undefined" && window.document) {
+    if (
+      typeof window != "undefined" &&
+      window.document &&
+      window.innerWidth <= 991
+    ) {
+      setNavbarOpen((prev) => {
         if (prev) {
           document.body.style = "overflow-y:visible";
         } else {
           document.body.style = "overflow-y:hidden";
         }
-      }
-      return !prev;
-    });
+        return !prev;
+      });
+    }
   };
 
   return (
