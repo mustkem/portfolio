@@ -37,7 +37,7 @@ const Services = () => {
                 <BsGrid />
               </div>
               <div className="services-content">
-                <h3>Front-end Development</h3>
+                <h3>Front-End Development</h3>
                 <p>
                   Reactjs, React Native, Angular preffered in the same order.
                 </p>

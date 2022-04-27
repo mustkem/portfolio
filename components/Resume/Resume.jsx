@@ -80,8 +80,9 @@ const Resume = () => {
                     </h3>
                     <span>Oct 2021 - Present</span>
                     <p className="line-text">
-                      I currently work here as a Front-end developer, my
-                      responsibilities include handling the the front-end.
+                      I currently work here as a Front-End developer, Creating
+                      and developing innovative software solutions for clients
+                      across a broad range of industries.
                     </p>
                   </div>
                 </li>
@@ -92,9 +93,11 @@ const Resume = () => {
                     </h3>
                     <span>March 2020 - Oct 2021</span>
                     <p className="line-text">
-                      Compound is a real estate startup based out of Manhattan,
-                      New York. At compound I mainly focused on the user facing
-                      web application and deployment.
+                      Cognizant is an multinational information technology
+                      services and consulting company. I worked here as Front-End
+                      developer and technical consultant and mainly focused on
+                      the finance and telecom demain web applications and
+                      deployment.
                     </p>
                   </div>
                 </li>
@@ -105,9 +108,10 @@ const Resume = () => {
                     </h3>
                     <span>Sep 2019 - March 2020</span>
                     <p className="line-text">
-                      Zeblok is a biotech startup based out of New York, my role
-                      at Zeblok included development of Back-end, Front-end
-                      applications as well as managing the cloud.
+                      Paytm is a financial technology company specializing in
+                      digital payment system and financial services, my role
+                      here included development of Front-End part of the
+                      internet banking platform.
                     </p>
                   </div>
                 </li>
@@ -118,9 +122,10 @@ const Resume = () => {
                     </h3>
                     <span>December 2016 - March 2020</span>
                     <p className="line-text">
-                      Sparxit is a biotech startup based out of New York, my
-                      role at Sparxit included development of Back-end,
-                      Front-end applications as well as managing the cloud.
+                      Sparx IT Solutions is a software development company that
+                      specializes in creating custom software applications. My
+                      role at sparxIt included both Front-End and Back-end
+                      development.
                     </p>
                   </div>
                 </li>

@@ -29,7 +29,7 @@ const Banner = () => {
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                Front-end Developer & Mentor
+                Front-End Developer & Mentor
               </p>
               <img
                 className="script-font profile-avatar"
