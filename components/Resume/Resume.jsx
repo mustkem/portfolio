@@ -80,7 +80,7 @@ const Resume = () => {
                     </h3>
                     <span>Oct 2021 - Present</span>
                     <p className="line-text">
-                      I currently work here as a Front-End developer, Creating
+                      I currently work here as a front-end developer, creating
                       and developing innovative software solutions for clients
                       across a broad range of industries.
                     </p>
@@ -93,11 +93,10 @@ const Resume = () => {
                     </h3>
                     <span>March 2020 - Oct 2021</span>
                     <p className="line-text">
-                      Cognizant is an multinational information technology
-                      services and consulting company. I worked here as Front-End
+                      Cognizant is a multinational information technology
+                      services and consulting company. I worked here as front-end
                       developer and technical consultant and mainly focused on
-                      the finance and telecom demain web applications and
-                      deployment.
+                      the finance and telecom domain web applications development.
                     </p>
                   </div>
                 </li>
@@ -110,7 +109,7 @@ const Resume = () => {
                     <p className="line-text">
                       Paytm is a financial technology company specializing in
                       digital payment system and financial services, my role
-                      here included development of Front-End part of the
+                      here included development of front-end part of the
                       internet banking platform.
                     </p>
                   </div>
@@ -124,7 +123,7 @@ const Resume = () => {
                     <p className="line-text">
                       Sparx IT Solutions is a software development company that
                       specializes in creating custom software applications. My
-                      role at sparxIt included both Front-End and Back-end
+                      role at sparxIt included both front-end and back-end
                       development.
                     </p>
                   </div>

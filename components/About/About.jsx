@@ -23,7 +23,7 @@ const About = () => {
             >
               <h3 className="d-flex justify-content-center">Hi There!</h3>
               <p>
-                I am a Front-End developer with a passion to create powerful
+                I am a front-end developer with a passion to create powerful
                 tech products. With over 7 years of experience in software
                 development, I load an arsenal of various technologies aimed at
                 high quality development adhering to the industry standards

@@ -62,7 +62,7 @@ const HeadMeta = () => {
       <meta name="title" content="Mustkeem K | Front-End Developer" />
       <meta
         name="description"
-        content="Mustkeem K is a Front-End Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
+        content="Mustkeem K is a front-end Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
       />
 
       {/* Open Graph / Facebook  */}
@@ -71,7 +71,7 @@ const HeadMeta = () => {
       <meta property="og:title" content="Mustkeem K | Front-End Developer" />
       <meta
         property="og:description"
-        content="Mustkeem K is a Front-End Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
+        content="Mustkeem K is a front-end Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
       />
 
       {/* Twitter  */}
@@ -79,11 +79,11 @@ const HeadMeta = () => {
       <meta property="twitter:url" content="https://metatags.io/" />
       <meta
         property="twitter:title"
-        content="Mustkeem K | Front-End Developer"
+        content="Mustkeem K | front-end Developer"
       />
       <meta
         property="twitter:description"
-        content="Mustkeem K is a Front-End Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
+        content="Mustkeem K is a front-end Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
       />
     </>
   );

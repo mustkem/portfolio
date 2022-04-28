@@ -31,7 +31,7 @@ const Counter = () => {
                 <BsBriefcase />
               </div>
               <div className="counterUp">9</div>
-              <p>Project Completed</p>
+              <p>Projects Completed</p>
             </div>
           </div>
           {/* Counter Item */}

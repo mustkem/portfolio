@@ -56,7 +56,7 @@ const Services = () => {
                 <FiLayers />
               </div>
               <div className="services-content">
-                <h3>Back-end Development</h3>
+                <h3>Back-End Development</h3>
                 <p>REST API based backend development using Nodejs.</p>
               </div>
             </div>
