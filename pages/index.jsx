@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import { useEffect } from "react";
 
@@ -59,19 +58,22 @@ const HeadMeta = () => {
       Learn how to configure a non-root public URL by running `npm run build`.
     */}
 
-      <meta name="title" content="Mustkeem K | Front-End Developer" />
+      <meta name="title" content="Mustkeem K | Full Stack Software Developer" />
       <meta
         name="description"
-        content="Mustkeem K is a front-end Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
+        content="Mustkeem K is a Full Stack Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
       />
 
       {/* Open Graph / Facebook  */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://metatags.io/" />
-      <meta property="og:title" content="Mustkeem K | Front-End Developer" />
+      <meta
+        property="og:title"
+        content="Mustkeem K | Full Stack Software Developer"
+      />
       <meta
         property="og:description"
-        content="Mustkeem K is a front-end Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
+        content="Mustkeem K is a Full Stack Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
       />
 
       {/* Twitter  */}
@@ -79,17 +81,19 @@ const HeadMeta = () => {
       <meta property="twitter:url" content="https://metatags.io/" />
       <meta
         property="twitter:title"
-        content="Mustkeem K | front-end Developer"
+        content="Mustkeem K | Full Stack Software Developer"
       />
       <meta
         property="twitter:description"
-        content="Mustkeem K is a front-end Developer and Mentor with over 6 years of experience in remote application, web development and mentoring."
+        content="Mustkeem K is a Full Stack Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
       />
+
+      {console.log("test")}
     </>
   );
 };
 
-const Home: NextPage = () => {
+const Home = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -100,7 +104,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Mustkeem K | Front-End Developer</title>
+        <title>Mustkeem K | Full Stack Software Developer</title>
         <HeadMeta />
       </Head>
       <div>

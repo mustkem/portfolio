@@ -24,12 +24,11 @@ const Banner = () => {
                 Mustkeem K
               </h1>
               <p
-                className="script-font"
                 data-aos-duration="1000"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                Front-End Developer & Mentor
+                Software Developer & Mentor
               </p>
               <img
                 className="script-font profile-avatar"
