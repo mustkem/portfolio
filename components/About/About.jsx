@@ -36,8 +36,10 @@ const About = () => {
                   <div className="row">
                     <div className="col-lg-6 col-xs-12">
                       <a
-                        href="https://drive.google.com/file/d/1giSAlBvcw25e2UjxMcyb_ZLwCJSc5p3O/view"
+                        target="_blank"
+                        href="https://drive.google.com/file/d/17yel_CS09LU3pV-GrApL15PX1UfFqnEa/view"
                         className="btn btn-common link"
+                        rel="noreferrer"
                       >
                         <MdOutlineAttachment className="icon" />
                         Download Resume
