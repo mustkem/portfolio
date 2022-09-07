@@ -18,41 +18,52 @@ const Contact = () => {
             data-aos-duration="500"
             data-aos-delay="100"
           >
-            <div className="contact-content">
-              <div className="row">
-                <div className="col-md-6 col-xs-12 justify-content-center">
-                  <div className="d-flex single-contact">
-                    <MdLocationOn className="icon" />
-                    <p>New Delhi, Delhi</p>
-                  </div>
-                </div>
+            <div className="contact-content row">
+              <div className="col-8 mx-auto">
+                <div className="contact-wrap">
+                  <div className="row">
+                    <div className="col-md-6 col-xs-12 justify-content-center">
+                      <div className="d-flex single-contact">
+                        <MdLocationOn className="icon" />
+                        <p>New Delhi, Delhi</p>
+                      </div>
+                    </div>
 
-                <div className="col-md-6 col-xs-12 justify-content-center">
-                  <div className="d-flex single-contact">
-                    <MdLocalPhone className="icon" />
-                    <p>
-                      <a href="tel:+91-8130128030">+91-8130128030</a>
-                    </p>
-                  </div>
-                </div>
+                    <div className="col-md-6 col-xs-12 justify-content-center">
+                      <div className="d-flex single-contact">
+                        <MdLocalPhone className="icon" />
+                        <p>
+                          <a href="tel:+91-8130128030">+91-8130128030</a>
+                        </p>
+                      </div>
+                    </div>
 
-                {/*  */}
-              </div>
-              <div className="row">
-                <div className="col-md-12 col-xs-12">
-                  <div className="d-flex align-items-center single-contact">
-                    <MdEmail className="icon" />
-                    <div>
-                      <p>
-                        <a href="mailto:mo.mustkem@gmail.com">
-                          mo.mustkem@gmail.com
-                        </a>
-                      </p>
-                      <p>
-                        <a href="mailto:mustkeem@upstack.co">
-                          mustkeem@upstack.co
-                        </a>
-                      </p>
+                    {/*  */}
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 col-xs-12">
+                      <div className="d-flex align-items-center single-contact">
+                        <MdEmail className="icon" />
+                        <div>
+                          <p>
+                            <a href="mailto:mustkeem@upstack.co">
+                              mustkeem@upstack.co
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6 col-xs-12">
+                      <div className="d-flex align-items-center single-contact">
+                        <MdEmail className="icon" />
+                        <div>
+                          <p>
+                            <a href="mailto:mo.mustkem@gmail.com">
+                              mo.mustkem@gmail.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

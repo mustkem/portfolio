@@ -46,7 +46,8 @@ p {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.6rem;
 }
 
 ul,
@@ -104,7 +105,7 @@ ol {
   text-align: center;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 48px;
+  margin-bottom: 50px;
   padding: 0 10px;
   position: relative;
 }
@@ -196,6 +197,7 @@ button:focus {
 .social-icon {
   li {
     display: inline-block;
+    margin: 15px;
     a {
       color: #252525;
       background: #fff;
@@ -205,7 +207,7 @@ button:focus {
       text-align: center;
       border-radius: 100%;
       font-size: 35px;
-      margin: 15px 6px 12px 6px;
+      padding: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -312,6 +314,9 @@ button:focus {
   .link {
     margin: 20px 0;
   }
+  .about-heading {
+    margin-bottom: 50px;
+  }
 }
 
 .profile-wrapper {
@@ -391,59 +396,40 @@ button:focus {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 25px;
     color: #252525;
+    text-align: center;
   }
 
   li {
-    padding: 0 20px 20px 30px;
+    padding: 20px;
     list-style: none;
-    border-left: 2px solid #f1f1f1;
 
     .content-text {
-      background: aliceblue;
-      padding: 20px;
+      padding: 80px 100px;
+      border-radius: 5px;
+      box-shadow: rgba(233, 240, 243, 0.5) 0px 2px 5px 0px,
+        rgb(230, 236, 248) 0px 0px 0px 1px;
     }
 
     .line-title {
       font-size: 18px;
       color: #252525;
+      text-align: center;
     }
     span {
       font-size: 18px;
       padding: 9px 0;
       display: block;
+      display: flex;
+      justify-content: center;
     }
-    .line-text {
-      line-height: 20px;
-    }
+
     &:first-child {
       &::before {
         border: 0;
         background: none;
         position: relative;
       }
-    }
-    &:last-child {
-      padding: 0 20px 0px 30px;
-    }
-
-    &:before {
-      content: "";
-      border: solid 2px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50px;
-      -moz-border-radius: 50px;
-      -webkit-border-radius: 50px;
-      font-size: 8px;
-      margin-left: -35px;
-      font-weight: 400;
-      background: #fff;
-      display: block;
-      position: absolute;
-      margin-top: 18px;
-      border-color: #8062f7 !important;
     }
   }
 
@@ -464,6 +450,10 @@ button:focus {
       color: #fff;
     }
   }
+}
+
+.more-link {
+  padding-top: 40px;
 }
 
 .navbar-brand {
@@ -668,6 +658,10 @@ button:focus {
   }
 }
 
+#education {
+  padding-bottom: 130px;
+}
+
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main {
@@ -697,7 +691,7 @@ button:focus {
   overflow: hidden;
   position: relative;
   .contents {
-    padding: 175px 0px 120px;
+    padding: 165px 0px 120px;
     color: #141c3a;
 
     h5 {
@@ -743,7 +737,7 @@ button:focus {
   .avatar {
     padding: 50px;
   }
-  .profile-avatar{
+  .profile-avatar {
     margin: 25px 0;
   }
 }
@@ -872,11 +866,21 @@ a:not([href]):not([tabindex]):hover {
 }
 
 /* Services Item */
+
+#services {
+  padding-top: 165px;
+  .content {
+    padding: 20px;
+  }
+}
+
 .services-item {
   background: #fff;
-  border-radius: 4px;
   padding: 50px 20px 65px 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: rgba(233, 240, 243, 0.5) 0px 2px 5px 0px,
+    rgb(230, 236, 248) 0px 0px 0px 1px;
+
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
   .icon {
@@ -901,10 +905,6 @@ a:not([href]):not([tabindex]):hover {
   p {
     line-height: 20px;
   }
-
-  &:hover {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-  }
 }
 
 .form-control {
@@ -928,10 +928,6 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .contact-form-area {
-  background: #fff;
-  box-shadow: 0 0 30px #ededed;
-  padding: 60px 40px;
-
   h2 {
     font-size: 20px;
     text-transform: uppercase;
@@ -939,8 +935,6 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .footer-right-contact {
-  padding: 4px;
-
   .single-contact {
     padding: 20px 55px;
     position: relative;
@@ -949,11 +943,9 @@ a:not([href]):not([tabindex]):hover {
       margin-bottom: 5px;
       a {
         color: #666;
+        text-decoration: none;
       }
     }
-  }
-  .contact-content {
-    padding: 50px 0;
   }
   .icon {
     color: #8062f7;
@@ -965,7 +957,7 @@ a:not([href]):not([tabindex]):hover {
 #contact {
   position: relative;
   overflow: hidden;
-
+  padding: 130px 0;
   #contactForm {
     margin-top: 30px;
   }
@@ -1068,7 +1060,7 @@ a:not([href]):not([tabindex]):hover {
   }
 }
 
-.close-sidebar{
+.close-sidebar {
   display: none;
 }
 

@@ -15,49 +15,52 @@ const Services = () => {
       id="services"
       className="services section-padding"
     >
-      <h2
-        className="section-title"
-        data-aos="flip-up"
-        data-aos-delay="0.4s"
-        data-aos-duration="500"
-      >
-        What I do
-      </h2>
       <div className="container">
-        <div className="row d-flex justify-content-center">
-          {/* Services item */}
-          <div className="col-md-6 col-lg-3 col-xs-12">
-            <div
-              className="services-item"
-              data-aos-delay="200"
-              data-aos-duration="500"
-              data-aos="fade-down"
-            >
-              <div className="icon">
-                <BsGrid />
-              </div>
-              <div className="services-content">
-                <h3>Front End Development</h3>
-                <p>
-                  Reactjs, React Native, Angular preffered in the same order.
-                </p>
+        <h2
+          className="section-title"
+          data-aos="flip-up"
+          data-aos-delay="0.4s"
+          data-aos-duration="500"
+        >
+          What I do
+        </h2>
+        <div className="content">
+          <div className="row d-flex justify-content-center ">
+            {/* Services item */}
+
+            <div className="col-md-6 col-lg-4 col-xs-12">
+              <div
+                className="services-item"
+                data-aos-delay="200"
+                data-aos-duration="500"
+                data-aos="fade-down"
+              >
+                <div className="icon">
+                  <BsGrid />
+                </div>
+                <div className="services-content">
+                  <h3>Front End Development</h3>
+                  <p>
+                    Reactjs, React Native, Angular preffered in the same order.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          {/* Services item */}
-          <div className="col-md-6 col-lg-3 col-xs-12">
-            <div
-              className="services-item"
-              data-aos-delay="200"
-              data-aos-duration="500"
-              data-aos="fade-down"
-            >
-              <div className="icon">
-                <FiLayers />
-              </div>
-              <div className="services-content">
-                <h3>Back End Development</h3>
-                <p>REST API based backend development using Nodejs.</p>
+            {/* Services item */}
+            <div className="col-md-6 col-lg-4 col-xs-12">
+              <div
+                className="services-item"
+                data-aos-delay="200"
+                data-aos-duration="500"
+                data-aos="fade-down"
+              >
+                <div className="icon">
+                  <FiLayers />
+                </div>
+                <div className="services-content">
+                  <h3>Back End Development</h3>
+                  <p>REST API based backend development using Nodejs.</p>
+                </div>
               </div>
             </div>
           </div>
