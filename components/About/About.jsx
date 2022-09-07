@@ -21,7 +21,9 @@ const About = () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <h3 className="d-flex justify-content-center">Hi There!</h3>
+              <h3 className="d-flex justify-content-center about-heading">
+                Hi There!
+              </h3>
               <p>
                 I am a Full Stack Software Developer with a passion to create
                 powerful tech products. With over 7 years of experience in
