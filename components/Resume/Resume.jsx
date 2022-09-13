@@ -69,8 +69,8 @@ const Resume = () => {
                       <p className="line-text">
                         Paytm is a financial technology company specializing in
                         digital payment system and financial services, my role
-                        here included development of front end and back end
-                        development of internet banking platform.
+                        here included development of front end and back end of
+                        internet banking platform.
                       </p>
                     </div>
                   </li>
@@ -82,9 +82,9 @@ const Resume = () => {
                       <span>December 2016 - March 2020</span>
                       <p className="line-text">
                         Sparx IT Solutions is a software development company
-                        that specializes in creating custom software
-                        applications. My role at sparxIt included both front end
-                        and back end development.
+                        specializes in creating custom software applications. My
+                        role at sparxIt included both front end and back end
+                        development.
                       </p>
                     </div>
                   </li>
