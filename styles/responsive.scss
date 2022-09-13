@@ -33,9 +33,6 @@
       }
     }
   }
-  .services-item {
-    margin-bottom: 20px;
-  }
 
   .timeline {
     text-align: center;
@@ -183,9 +180,7 @@
       }
     }
   }
-  .services-item {
-    margin-bottom: 20px;
-  }
+
   .counter-section {
     .counter {
       p {
@@ -230,9 +225,6 @@
     }
   }
 
-  .services-item {
-    margin-bottom: 20px;
-  }
   .timeline {
     padding: 0 15px;
     li {
@@ -257,5 +249,37 @@
         text-align: center;
       }
     }
+  }
+  .profile-wrapper {
+    padding: 0;
+  }
+  #about .actions {
+    padding-bottom: 0px !important;
+  }
+  #services {
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+  #services .content {
+    padding-bottom: 0;
+  }
+  #resume {
+    padding-bottom: 0;
+  }
+  #education {
+    padding-bottom: 65px;
+  }
+  #contact {
+    padding: 65px 0;
+  }
+  .timeline li .content-text {
+    padding: 50px 40px;
+  }
+  .services-item {
+    margin-bottom: 20px;
+    padding: 50px 40px;
+  }
+  .backend .services-item {
+    margin-bottom: 0;
   }
 }

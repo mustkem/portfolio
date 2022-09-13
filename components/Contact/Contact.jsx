@@ -22,25 +22,18 @@ const Contact = () => {
               <div className="col-8 mx-auto">
                 <div className="contact-wrap">
                   <div className="row">
-                    <div className="col-md-6 col-xs-12 justify-content-center">
-                      <div className="d-flex single-contact">
-                        <MdLocationOn className="icon" />
-                        <p>New Delhi, Delhi</p>
+                    <div className="col-md-6 col-xs-12">
+                      <div className="d-flex align-items-center single-contact">
+                        <MdEmail className="icon" />
+                        <div>
+                          <p>
+                            <a href="mailto:mo.mustkem@gmail.com">
+                              mo.mustkem@gmail.com
+                            </a>
+                          </p>
+                        </div>
                       </div>
                     </div>
-
-                    <div className="col-md-6 col-xs-12 justify-content-center">
-                      <div className="d-flex single-contact">
-                        <MdLocalPhone className="icon" />
-                        <p>
-                          <a href="tel:+91-8130128030">+91-8130128030</a>
-                        </p>
-                      </div>
-                    </div>
-
-                    {/*  */}
-                  </div>
-                  <div className="row">
                     <div className="col-md-6 col-xs-12">
                       <div className="d-flex align-items-center single-contact">
                         <MdEmail className="icon" />
@@ -53,16 +46,20 @@ const Contact = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 col-xs-12">
-                      <div className="d-flex align-items-center single-contact">
-                        <MdEmail className="icon" />
-                        <div>
-                          <p>
-                            <a href="mailto:mo.mustkem@gmail.com">
-                              mo.mustkem@gmail.com
-                            </a>
-                          </p>
-                        </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 col-xs-12 justify-content-center">
+                      <div className="d-flex single-contact">
+                        <MdLocalPhone className="icon" />
+                        <p>
+                          <a href="tel:+91-8130128030">+91-8130128030</a>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-md-6 col-xs-12 justify-content-center">
+                      <div className="d-flex single-contact">
+                        <MdLocationOn className="icon" />
+                        <p>New Delhi, Delhi</p>
                       </div>
                     </div>
                   </div>

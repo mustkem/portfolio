@@ -22,18 +22,18 @@ const About = () => {
               data-aos-delay="200"
             >
               <h3 className="d-flex justify-content-center about-heading">
-                Hi There!
+                Hi. I’m Mustkeem, nice to meet you. Please take a look around!
               </h3>
               <p>
-                I am a Full Stack Software Developer with a passion to create
-                powerful tech products. With over 7 years of experience in
+                I am passionate about building excellent software that improves
+                the lives of those around me. With over 7 years of experience in
                 software development, I load an arsenal of various technologies
                 aimed at high quality development adhering to the industry
-                standards while ensuring a smooth user experience. I have over 7
-                years of experience, remotely collaborating with startups around
-                the globe, preferably open to such more opportunities.
+                standards while ensuring smooth user experience. I specialize in
+                creating software for clients ranging from individuals and
+                small-businesses all the way to large enterprise corporations.
               </p>
-              <div className="row d-flex pt-5 pb-5 justify-content-center">
+              <div className="row d-flex pt-5 pb-5 justify-content-center actions">
                 <div className="col-md-12 col-lg-8 col-xs-12">
                   <div className="row">
                     <div className="col-lg-6 col-xs-12">

@@ -41,13 +41,13 @@ const Services = () => {
                 <div className="services-content">
                   <h3>Front End Development</h3>
                   <p>
-                    Reactjs, React Native, Angular preffered in the same order.
+                    ReactJs, React Native, Angular preffered in the same order.
                   </p>
                 </div>
               </div>
             </div>
             {/* Services item */}
-            <div className="col-md-6 col-lg-4 col-xs-12">
+            <div className="col-md-6 col-lg-4 col-xs-12 backend">
               <div
                 className="services-item"
                 data-aos-delay="200"
@@ -59,7 +59,7 @@ const Services = () => {
                 </div>
                 <div className="services-content">
                   <h3>Back End Development</h3>
-                  <p>REST API based backend development using Nodejs.</p>
+                  <p>REST API based backend development using NodeJs.</p>
                 </div>
               </div>
             </div>
