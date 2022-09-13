@@ -58,22 +58,19 @@ const HeadMeta = () => {
       Learn how to configure a non-root public URL by running `npm run build`.
     */}
 
-      <meta name="title" content="Mustkeem K | Full Stack Software Developer" />
+      <meta name="title" content="Mustkeem K | Software Developer" />
       <meta
         name="description"
-        content="Mustkeem K is a Full Stack Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
+        content="Mustkeem K is a Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
       />
 
       {/* Open Graph / Facebook  */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://metatags.io/" />
-      <meta
-        property="og:title"
-        content="Mustkeem K | Full Stack Software Developer"
-      />
+      <meta property="og:title" content="Mustkeem K | Software Developer" />
       <meta
         property="og:description"
-        content="Mustkeem K is a Full Stack Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
+        content="Mustkeem K is a Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
       />
 
       {/* Twitter  */}
@@ -81,14 +78,12 @@ const HeadMeta = () => {
       <meta property="twitter:url" content="https://metatags.io/" />
       <meta
         property="twitter:title"
-        content="Mustkeem K | Full Stack Software Developer"
+        content="Mustkeem K | Software Developer"
       />
       <meta
         property="twitter:description"
-        content="Mustkeem K is a Full Stack Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
+        content="Mustkeem K is a Software Developer and Mentor with over 7 years of experience in software development, web application development and mentoring."
       />
-
-      {console.log("test")}
     </>
   );
 };
@@ -104,7 +99,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Mustkeem K | Full Stack Software Developer</title>
+        <title>Mustkeem K | Software Developer</title>
         <HeadMeta />
       </Head>
       <div>
