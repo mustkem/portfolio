@@ -39,7 +39,7 @@ const About = () => {
                     <div className="col-lg-6 col-xs-12">
                       <a
                         target="_blank"
-                        href="https://drive.google.com/file/d/17yel_CS09LU3pV-GrApL15PX1UfFqnEa/view"
+                        href="https://drive.google.com/file/d/1jYbveXiIZ2W9_-4ZFb_jOY9HQ6t_vEqr/view"
                         className="btn btn-common link"
                         rel="noreferrer"
                       >
